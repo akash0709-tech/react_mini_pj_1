@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://akash0709-tech.github.io/react_mini_pj_1",
+
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d buid",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
